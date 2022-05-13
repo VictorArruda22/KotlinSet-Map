@@ -12,6 +12,7 @@ fun main(){
     println(assistiramAmbos)
     println(assistiramCursoDeAndroid intersect  assistiramCursoDeKotlin)
     println(assistiramCursoDeAndroid union assistiramCursoDeKotlin)
+    println(assistiramCursoDeAndroid subtract assistiramCursoDeKotlin)
 }
 
 
