@@ -10,6 +10,7 @@ fun main(){
     assistiramAmbos.add("Claudio")
 
     println(assistiramAmbos)
+    println(assistiramCursoDeAndroid union(assistiramCursoDeKotlin))
 }
 
 
