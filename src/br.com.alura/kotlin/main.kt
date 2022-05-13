@@ -10,7 +10,8 @@ fun main(){
     assistiramAmbos.add("Claudio")
 
     println(assistiramAmbos)
-    println(assistiramCursoDeAndroid union(assistiramCursoDeKotlin))
+    println(assistiramCursoDeAndroid intersect  assistiramCursoDeKotlin)
+    println(assistiramCursoDeAndroid union assistiramCursoDeKotlin)
 }
 
 
