@@ -18,6 +18,9 @@ fun main(){
     println(pedidos)
     pedidos.putIfAbsent(5, 50.0)
     println(pedidos)
+
+    pedidos.remove(5)
+    println(pedidos)
 }
 
 
