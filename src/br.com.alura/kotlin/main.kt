@@ -2,7 +2,7 @@ fun main(){
     val pedidos: MutableMap<Int, Double> = mutableMapOf(
         Pair(1, 20.0),
         2 to 30.5,
-        3 to 40.0,
+        3 to 60.0,
         4 to 100.0,
         5 to 60.0,
         6 to 25.0
@@ -48,6 +48,11 @@ fun main(){
 //    pedidos += (setOf(7 to 90.0, 8 to 95.0))
     println(pedidos)
 
+    pedidos.keys.remove(1)
+    println(pedidos)
+
+    pedidos.values.remove(60.0)
+    println(pedidos)
 
 }
 
