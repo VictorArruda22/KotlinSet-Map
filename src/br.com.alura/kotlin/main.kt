@@ -54,6 +54,9 @@ fun main(){
     pedidos.values.remove(60.0)
     println(pedidos)
 
+    pedidos -= 6
+    println(pedidos)
+
 }
 
 fun testaMap(pedidos: MutableMap<Int, Double>) {
