@@ -41,6 +41,14 @@ fun main(){
     println(pedidosAcima)
     println(pedidosPares)
     println(pedidosFiltrados)
+
+    println(pedidos - listOf(5, 4))
+
+    pedidos.putAll(setOf(7 to 90.0, 8 to 95.0))
+//    pedidos += (setOf(7 to 90.0, 8 to 95.0))
+    println(pedidos)
+
+
 }
 
 fun testaMap(pedidos: MutableMap<Int, Double>) {
